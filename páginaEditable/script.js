@@ -55,6 +55,6 @@ addEducation.addEventListener("click", () => {
 
 } );
 
-//Permitir al usuario subir una foto de perfil
+//Permitir al usuario subir una foto de perfil (Esto no lo terminé)
 
-document.getElementById("idProfilePicture")
+//document.getElementById("idProfilePicture")
