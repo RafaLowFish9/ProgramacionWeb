@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="Presentacion">
+        <div class ="fotoDePerfil">
+            <img src="genericPfp.png" alt="fotopresentacion" class="imgPresentacion">
+           
+            <label for="uploadPhoto">Subir una foto de perfil</label>
+            <input type="file" id = "idProfilePicture" accept="image/*">
+        </div>
+        <div class = "nombre" >
+            <h1>Nombre</h1>
+            <p>Mi nombre es Sergio Rafael López, tengo 19 años y mi meta es especializarme en ciberseguridad.</p>
+        </div>
+    </div>
+    <div id = "skills">
+        <h1>Conocimiento en:</h1>
+        <input type="text" id = "enterSkill">
+        <button type = "button" id="addSkill">Añadir</button>
+            <ul id = "listaSkills">
+                <!--Acá se añaden las skills-->
 
+            </ul>
+            
+        
+    </div>
+    <div id = "historialAcademico">
+        <h1>Perfil laboral</h1>
+        <input type="text" id = "enterEducation">
+        <button type="button" id = "addEducation">Añadir</button>
+            <ul id = "listaEducation">
+                <!--Añadir historial educativo-->
+
+            </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
