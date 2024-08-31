@@ -1,1 +1,19 @@
+#Presentacion 
+{
+    display: flex;
+}
 
+.imagen {
+    width: 240px;
+    
+}
+
+.nombre {
+    width: 660px;
+}
+
+.imgPresentacion {
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+}
